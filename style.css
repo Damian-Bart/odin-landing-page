@@ -8,7 +8,7 @@ body {
 .header,
 .hero {
     background: #1F2937;
-    padding: 0 100px;
+    padding: 0 180px;
 }
 
 .header {
@@ -36,4 +36,15 @@ a {
 
 .hero {
     display: flex;
+    justify-content: space-between;
+    padding: 100px 180px;
+}
+
+.left {
+    flex-basis: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
