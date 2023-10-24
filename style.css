@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header,
+.hero {
+    background: #1F2937;
+    padding: 0 100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;   
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+}
