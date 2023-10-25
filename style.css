@@ -65,3 +65,13 @@ img {
 .call-button {
     background: #3882f6;
 }
+
+.hero-button,
+.call-button {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+}
