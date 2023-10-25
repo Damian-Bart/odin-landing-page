@@ -37,7 +37,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
-    padding: 100px 180px;
+    padding: 120px 180px;
     align-items: center;
 }
 
@@ -58,4 +58,10 @@ h1 {
 img {
     width: 400px;
     height: auto;
+}
+
+.hero-button,
+.call-sect,
+.call-button {
+    background: #3882f6;
 }
