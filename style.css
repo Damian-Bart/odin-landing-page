@@ -85,6 +85,8 @@ h2 {
 
 .mid-container {
     display: flex;
+    padding: 0 180px 80px 180px;
+    gap: 10px;
 }
 
 .box {
@@ -93,3 +95,5 @@ h2 {
     border: solid #3882f6;
     border-radius: 8px;
 }
+
+
