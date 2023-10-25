@@ -86,7 +86,8 @@ h2 {
 .mid-container {
     display: flex;
     padding: 0 180px 80px 180px;
-    gap: 10px;
+    gap: 16px;
+    justify-content: center;
 }
 
 .box {
@@ -96,4 +97,12 @@ h2 {
     border-radius: 8px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.text {
+    width: 120px;
+}
