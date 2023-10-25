@@ -83,3 +83,13 @@ h2 {
     color: #1F2937;
 }
 
+.mid-container {
+    display: flex;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    border: solid #3882f6;
+    border-radius: 8px;
+}
