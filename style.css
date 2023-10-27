@@ -134,4 +134,11 @@ h2 {
     align-items: center;
     margin: 80px 180px 80px 180px;
     background: #3882f6;
+    color: #f9faf8;
+    padding: 20px 80px;
+    border-radius: 8px;
+}
+
+.call-button {
+    border: solid white 2px;
 }
