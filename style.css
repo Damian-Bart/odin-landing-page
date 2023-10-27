@@ -43,11 +43,17 @@ a {
 
 .left {
     flex-basis: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 h1 {
     font-size: 48px;
-    color: #f9faf8
+    color: #f9faf8;
+    margin: 0;
 }
 
 .left p {
@@ -56,8 +62,7 @@ h1 {
 }
 
 img {
-    width: 400px;
-    height: auto;
+    height: 300px;
 }
 
 .hero-button,
@@ -107,3 +112,4 @@ h2 {
     width: 120px;
     text-align: center;
 }
+
